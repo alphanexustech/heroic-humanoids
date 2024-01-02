@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Scientist from './images/Scientist.png';
 import React, { useState } from 'react';
 
 const RandomDisplayComponent = () => {
@@ -28,7 +28,11 @@ const RandomDisplayComponent = () => {
 function App() {
   return (
     <div className="App">
-      <RandomDisplayComponent />  
+      <h1>Heroic Humanoids</h1> 
+      <img src={Scientist} className='character-one'/>
+      <RandomDisplayComponent />
+      <RandomDisplayComponent />
+      <RandomDisplayComponent />
     </div>
   );
 }
